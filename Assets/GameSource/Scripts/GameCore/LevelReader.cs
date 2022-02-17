@@ -1,16 +1,18 @@
-﻿using UnityEditor;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Prototype.Core
 {
     public class LevelReader : MonoBehaviour
     {
-        [SerializeField] private Object[] levelFiles;
+        [SerializeField] private TextAsset[] levelFiles;
 
+
+        
 
         public string[][] GetLevelMap(int index)
         {
-            string[] Lines = System.IO.File.ReadAllLines(AssetDatabase.GetAssetPath(levelFiles[index]));
+            string[] Lines = levelFiles[index].text.Split('\n');
             string[][] Columns = new string[Lines.Length][];
             for (int i = 0; i <= Lines.Length - 1; i++)
             {
