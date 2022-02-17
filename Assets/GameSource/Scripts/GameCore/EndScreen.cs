@@ -18,13 +18,5 @@ public class EndScreen : MonoBehaviour
         }
     }
 
-    public void GoToMainMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
 
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(1);
-    }
 }

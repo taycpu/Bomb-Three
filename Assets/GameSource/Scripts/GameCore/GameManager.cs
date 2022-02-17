@@ -36,5 +36,16 @@ namespace Prototype.Core
                 endScreen.Configure("Game Over", 0);
             }
         }
+        
+        
+        public void GoToMainMenu()
+        {
+            SceneManager.LoadScene(0);
+        }
+
+        public void RestartGame()
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 }

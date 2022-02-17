@@ -311,8 +311,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5769d8faf7e80f549a6746fbde51b0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridPosition: {x: 0, y: 0}
-  collider: {fileID: 7294526395778768127}
+  gridPosition:
+    row: 0
+    column: 0
+  collider2d: {fileID: 7294526395778768127}
   holdedObject: 0
   wall: {fileID: 1348776781847567799}
   bomb: {fileID: 815541352613046825}

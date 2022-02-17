@@ -43,13 +43,13 @@ public class LevelBarController : MonoBehaviour
                 {
                     float currentLoop = (i + 1) * 2;
                     currentLoop /= 5f;
-                    var coefficient = (currentLoop * i) / 2;
+                    var coefficient = (currentLoop * i) ;
                     if (currentLoop % 2f == 0)
                     {
                         int totalStar = 0;
                         for (int j = 0; j < i; j++)
                         {
-                            totalStar += starMapping.starAmount[i];
+                            totalStar += starMapping.starAmount[j];
                         }
 
                         if (totalStar >= coefficient)

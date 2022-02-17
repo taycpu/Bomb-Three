@@ -343,7 +343,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 2261.5532}
+  m_SizeDelta: {x: 0, y: 4606.757}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &377105885
 MonoBehaviour:
@@ -992,7 +992,7 @@ MonoBehaviour:
   levelBarPrefab: {fileID: 1988583925963731762, guid: 9816e951b1086e541938e47a47c546b2,
     type: 3}
   starMapping: {fileID: 11400000, guid: d507b8fe4ee0bc845b30acbc027eda3a, type: 2}
-  levelCount: 10
+  levelCount: 20
   levelIndex: {fileID: 11400000, guid: a47501e36bb9d9d42abe8330945bef49, type: 2}
   contentPanel: {fileID: 377105884}
   levelName: Level
